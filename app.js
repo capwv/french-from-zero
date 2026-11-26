@@ -283,7 +283,8 @@
       if (b.type === 'p') html += '<p' + (b.ltr ? ' dir="ltr" class="en-p"' : '') + '>' + renderInline(b.text) + '</p>';
       else if (b.type === 'h') html += '<h3>' + esc(b.text) + '</h3>';
       else if (b.type === 'code') html += highlight(b.code);
-      else if (b.type === 'ex') html += '<div class="exs">' + b.items.map(function (i) { return '<div class="e"><div class="en">' + esc(i[0]) + (canSpeak ? ' <button type="button" class="speak-btn" data-say="' + esc(i[0]).replace(/"/g, '&quot;') + '" aria-label="اسمع النطق">🔊</button>' : '') + '</div><div class="ar">' + esc(i[1]) + '</div></div>'; }).join('') + '</div>';
+      else if (b.type === 'ex' && b.items) html += '<div class="exs">' + b.items.map(function (i) { return '<div class="e"><div class="en">' + esc(i[0]) + (canSpeak ? ' <button type="button" class="speak-btn" data-say="' + esc(i[0]).replace(/"/g, '&quot;') + '" aria-label="اسمع النطق">🔊</button>' : '') + '</div><div class="ar">' + esc(i[1]) + '</div></div>'; }).join('') + '</div>';
+      else if (b.type === 'ex' && b.task) html += '<div class="exs"><div class="e"><div class="ar"><b>🎯 ' + renderInline(b.task) + '</b></div>' + (b.code ? '<div class="ar">' + esc(b.code) + '</div>' : '') + (b.hint ? '<div class="ar">💡 ' + esc(b.hint) + '</div>' : '') + (b.why ? '<div class="ar">📌 ' + esc(b.why) + '</div>' : '') + '</div></div>';
       else if (b.type === 'note') html += '<div class="note' + (b.warn ? ' warn' : '') + '">' + renderInline(b.text) + '</div>';
       else if (b.type === 'list') {
         html += '<ul>' + b.items.map(function (i) { return '<li>' + renderInline(i) + '</li>'; }).join('') + '</ul>';
