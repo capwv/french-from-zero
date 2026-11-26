@@ -72,7 +72,7 @@ CURRICULUM.push(
   { "q": "`jeté dans le monde` معناها؟", "options": [{ "text": "مرمي في العالم" }, { "text": "مسافر في العالم" }, { "text": "حاكم العالم" }, { "text": "مشي من العالم" }], "answer": 0, "explain": "jeté = مرمي (استعارة وجودية)." }
  ],
  "exercises": [
-  { "task": "لخص النقاش في جملتين بالعربي.", "hint": "المدارس الفلسفية والرأي.", "code": "في 3 مدارس فلسفية عن معنى الحياة: وجودية ورواقية وأبيقورية. ولا واحدة عندها الحقيقة المطلقة.", "why": "التلخيص بيثبت الفهم." },
+  { "task": "اكتب بالفرنسي: موقف كل مدرسة من التلاتة في جملة، ونقطة الاختلاف الجوهرية بينهم، والميل الضمني للمتحدث.", "hint": "الاختلاف الجوهري في مصدر المعنى: بيتصنع، بيتقبّل، ولا بيتعاش؟", "code": "L'existentialisme crée le sens, le stoïcisme l'accepte, l'épicurisme le savoure. Le désaccord porte sur la source du sens. Implicitement, le locuteur semble pencher pour une synthèse personnelle.", "why": "التمييز بين مواقف متداخلة والتقاط الميل الضمني هو مستوى C2 في الاستماع." },
   { "task": "اكتب رأيك في معنى الحياة في 3 جمل.", "hint": "À mon sens... Il est indéniable que... Cependant...", "code": "À mon sens, le sens de la vie est personnel. Il est indéniable que chacun doit trouver sa propre voie. Cependant, l'amitié est universelle.", "why": "التعبير عن الرأي الفلسفي مهارة C2." }
  ]
 },
@@ -106,7 +106,7 @@ CURRICULUM.push(
   { "q": "`La liberté n'est pas un état, c'est un devenir` معناها؟", "options": [{ "text": "الحرية حالة ثابتة" }, { "text": "الحرية عملية مستمرة" }, { "text": "الحرية مش موجودة" }, { "text": "الحرية سهلة" }], "answer": 1, "explain": "devenir = صيرورة / عملية مستمرة." }
  ],
  "exercises": [
-  { "task": "لخص النص في جملتين بالعربي.", "hint": "الحرية والمسؤولية.", "code": "سارتر شايف إن الحرية عبء ومسؤولية مطلقة. بس هي كمان محررة لأنها بتخلينا نغير كل حاجة.", "why": "التلخيص بيثبت الفهم." },
+  { "task": "اكتب بالفرنسي: أطروحة سارتر في جملة، والمفارقة (paradoxe) اللي بيقدمها النص، وتقييمك النقدي في جملة.", "hint": "المفارقة: الحرية عبء ومحررة في نفس الوقت.", "code": "Sartre soutient que la liberté est une responsabilité absolue. Le paradoxe : ce qui nous pèse est aussi ce qui nous libère. Critique : cette vision ignore les contraintes sociales réelles.", "why": "القراءة في C2 بتطلب التقاط المفارقة والتقييم النقدي، مش التلخيص." },
   { "task": "اكتب رأيك في الحرية والمسؤولية في 3 جمل.", "hint": "À mon sens... Il est indéniable que... Cependant...", "code": "À mon sens, la liberté est un fardeau nécessaire. Il est indéniable que nous sommes responsables de nos choix. Cependant, cette responsabilité est aussi libératrice.", "why": "التعبير عن الرأي الفلسفي مهارة C2." }
  ]
 },
