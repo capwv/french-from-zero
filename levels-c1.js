@@ -72,7 +72,7 @@ CURRICULUM.push(
   { "q": "`c'est-à-dire` معناها؟", "options": [{ "text": "يعني / أي" }, { "text": "لكن" }, { "text": "عشان كده" }, { "text": "في الختام" }], "answer": 0, "explain": "c'est-à-dire = يعني / أي (توضيح)." }
  ],
  "exercises": [
-  { "task": "لخص المحاضرة في جملتين بالعربي.", "hint": "النظريتين ورأي المحاضر.", "code": "في نظريتين عن اللغة: فطرية ومكتسبة. الحقيقة على الأرجح في النص.", "why": "التلخيص بيثبت الفهم." },
+  { "task": "اكتب بالفرنسي: موقف المحاضر من النقاش (بينحاز لأي جهة؟) وحاجة واحدة فهمتها ضمنياً من أسلوبه مش من تصريحه.", "hint": "المحاضر مش بيحسم رأيه مباشرة؛ دور على علامات التحفظ (il semblerait, sans doute).", "code": "Le conférencier ne tranche pas directement : il semblerait qu'il privilégie une position intermédiaire. Sans le dire explicitement, il laisse entendre que le débat reste ouvert.", "why": "فهم الضمني والمواقف غير المحسومة هو جوهر الاستماع في C1." },
   { "task": "اكتب رأيك في النقاش في 3 جمل.", "hint": "À mon sens... Il est indéniable que...", "code": "À mon sens, la vérité est entre les deux. Il est indéniable que nous avons une prédisposition, mais l'environnement est crucial.", "why": "التعبير عن الرأي في موضوع أكاديمي مهارة C1." }
  ]
 },
@@ -107,7 +107,7 @@ CURRICULUM.push(
   { "q": "`indépendamment de` معناها؟", "options": [{ "text": "بسبب" }, { "text": "بغض النظر عن" }, { "text": "عشان" }, { "text": "بفضل" }], "answer": 1, "explain": "indépendamment de = بغض النظر عن / بمعزل عن." }
  ],
  "exercises": [
-  { "task": "لخص النص في جملتين بالعربي.", "hint": "الفرضية والنقاش.", "code": "فرضية النسبية اللغوية بتقول إن اللغة بتأثر على الفكر. النقاش لسه مفتوح.", "why": "التلخيص بيثبت الفهم." },
+  { "task": "اكتب بالفرنسي: فرضية النص في جملة، وحجة داعمة واحدة، ونقطة ضمنية فهمتها من أسلوب الكاتب مش من تصريحه.", "hint": "لاحظ درجات التحفظ (dans une certaine mesure, il semble que).", "code": "L'hypothèse : la langue influencerait notre pensée. Un argument : les distinctions lexicales varient selon les langues. Un implicite : l'auteur reste prudent et ne considère pas la thèse comme prouvée.", "why": "القراءة في C1 بتطلب التقاط الضمني ودرجات التحفظ، مش بس الفكرة العامة." },
   { "task": "اكتب رأيك في الفرضية في 3 جمل.", "hint": "À mon sens... Il est indéniable que... Cependant...", "code": "À mon sens, la langue influence notre pensée. Il est indéniable que les mots façonnent notre vision du monde. Cependant, la pensée existe aussi sans langue.", "why": "التعبير عن الرأي في موضوع أكاديمي مهارة C1." }
  ]
 },
